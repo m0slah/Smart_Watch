@@ -1,0 +1,52 @@
+.ProductPreview{
+    width: 100%;
+    max-width: 900px;
+    margin-top: 0px;
+}
+
+.ProductPreview >img {
+    width: 70%;
+}
+
+
+.timeSection{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 340px;
+    transform: translate(-50%,-50%);
+    font-size: 48px;
+}
+
+.HeartBeatSection{
+    color: white;
+    height:0%;
+    position: absolute;
+    top: 40%;
+    left: 340px;
+    transform: translate(-50%,-50%);
+    font-size: 38px;
+}
+
+
+.HeartBeatSection > img{
+    width: 40px;
+    animation: beat 2s infinite;
+    
+}
+
+@keyframes beat{
+    0%{
+        transform: scale(1,1);
+    }
+    50%{
+        transform: scale(1.1,1.1);
+    }
+    100%{
+        transform: scale(1,1);
+    }
+}
+
+.HeartBeatSection > p{
+    padding-top: -20px;
+}
